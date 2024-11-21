@@ -1,0 +1,77 @@
+PHP NOTES
+1.75%  websites are based on PHP 
+2. Hypertext Preprocessor - Full Form of PHP 
+3. PHP is server side Scripting Language 
+4. website(Dynamic) is based on MVC(View Controller Model) architecture
+        a.View- UI-(HTML,CSS)		
+        b.Controller-Backend(PHP/Node)		
+        c.Model- Database
+5.It is simple and easy technology to learn 
+6.It is Object Oriented Technology 
+7.It is Platform independent
+8.Server Side Scripting Language 
+9.Faster
+10.Session Management
+11.Secure 
+12.Faster than ASP JSP
+13.Created in 1994 by Rasmus Lerdorf
+
+apache server converts php file to HTML file 
+Browser only understands HTML, CSS, JS
+we can't directly use PHP within Browser
+
+
+What type of applications can be made using PHP
+        E-commerce
+        CMS(Content Management System )
+        ERP 
+        Database management
+        Mails /Chat applications
+12.WAMP Server- Windows apache mysql php
+13.XAMPP- Any-operating system Apache  Mysql php pearl 
+14.In PHP we write everything inside <?php           ?>
+ If we write outside it then it will not execute 
+15.echo / print  - to display value/data on browser
+16.In PHP Each command/line should end with ; 
+17.To use anything from HTML in PHP use inside echo
+Eg- 	echo"<br>Welcome to PHP World";
+
+18.Way to declare variable - $  
+-- variables are used to store data 
+(In PHP we declare variables in dynamic way)
+	$aa =”Hello”;	// here Datatype is string 
+$ab =25.10;		// here Datatype is float
+19.In PHP we don’t need to declare datatype it takes it dynamically
+Eg-  	$a =25;
+	echo$a;
+20.For concatenation . operator is used 
+
+echo
+- is a language construct which helps display output on browser
+- It is Case sensative 
+- semi colan is required ;
+
+--PHP with HTML(a file containing HTML,CSS,JS)
+We cannot connect HTML,CSS,JS directly with Database
+
+--- Data Types
+Int, Float, String, boolean(write in capital),array, object,null 
+
+
+
+--- Constant 
+Constant is declared by word define
+
+--- Operator 
+Binary,Unary,Ternary Operator 
+Types of Operator
+Arithmetic operators. + add,- sub ,* multi,** exponentiail, / divide ,% modulas
+Comparison operators.  >,<,<=,>=,===,==,=!,==!,<>(sign for not equal-to in PHP),<=>(Spaceship operator )
+Increment/Decrement operators. a--,a++,--a,++a
+Assignment operators. =, +=, -= , *=, /= , %= 
+String operators.  .(concatenation) , .= (assigning value to any 1) (str.=str1)  (here value of str1 is added to str)
+Logical operators.  &&, ||, !,
+Relational operators.
+Array operators.
+Conditional assignment operators.
+ 
